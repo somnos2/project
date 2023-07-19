@@ -1,0 +1,4 @@
+EL/JSTL에서 날짜 쓸때
+
+<%@ taglib prefix="fmt" uri ="http://java.sun.com/jsp/jstl/fmt"%>
+<fmt:formatDate value="${가져올 데이터}" pattern="yyyy-mm-dd" type="date"/>
