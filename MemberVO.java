@@ -7,6 +7,11 @@ import org.springframework.stereotype.Component;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+
+
+//안녕하세용
+
     
 @Component("fairyMem")
 @NoArgsConstructor
