@@ -1,0 +1,21 @@
+"total":19,"
+list":[
+{"bnum":17,"bname":"smith","title":"16번째 게시물","content":"16번째","date":"2023-06-27T06:41:16.000+00:00","hitnum":0},
+{"bnum":18,"bname":"smith","title":"17번째 게시물","content":"17번째","date":"2023-06-27T06:41:22.000+00:00","hitnum":0},
+{"bnum":19,"bname":"smith","title":"18번째 게시물","content":"18번째","date":"2023-06-27T06:41:27.000+00:00","hitnum":0},
+{"bnum":20,"bname":"smith","title":"19번째 게시물","content":"19번째","date":"2023-06-27T06:41:33.000+00:00","hitnum":0}
+],
+
+"pageNum":4, "pageSize":5, "size":4, "startRow":16," endRow":19," pages":4," 
+ prePage":3," nextPage":0,"
+ isFirstPage":false," isLastPage":true, "hasPreviousPage":true, "hasNextPage":false, "navigatePages":8," navigatepageNums"
+[1,2,3,4],"navigateFirstPage":1,"navigateLastPage":4
+
+lombok 라이브러리
+- 생성자, settar, gettar, equals, toString,
+- @Data :
+- @S1f4j : log.info("asdasd"), trace, warn, info, debug, error
+- Log Level :
+http://projectlombok.org/download
+
+SELECT * FROM board WHERE content LIKE CONCAT('%',#{keyword},'%')
